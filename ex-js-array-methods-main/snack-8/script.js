@@ -19,11 +19,12 @@ const students = [
   },
 ];
 
- const myClass = students.find((classes) => {
-  
-   return classes.name === '3C'
- })
- console.log(myClass);
+const mystudent = students.find((person) => {
+  return person.name === 'Marco Lanci'
+})
+
+console.log(mystudent.class);
+
 
 
 
